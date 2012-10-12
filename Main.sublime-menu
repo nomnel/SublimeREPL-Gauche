@@ -1,0 +1,51 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"caption": "Scheme",
+                "id": "Scheme",
+
+                 "children":[
+                    {"command": "repl_open",
+                     "caption": "Gauche",
+                     "id": "repl_gauche",
+                     "mnemonic": "r",
+                     "args": {
+                        "type": "subprocess",
+                        "external_id": "gauche",
+                        "encoding": "utf8",
+                        "cmd": ["gosh", "-i"],
+                        "soft_quit": "\n(exit)\n",
+                        "cwd": "$file_path",
+                        "cmd_postfix": "\n",
+                        "suppress_echo": false,
+                        "syntax": "Packages/User/Sublime-Scheme-Syntax/Gauche.tmLanguage"
+                        }
+                    },
+                    {"command": "repl_open",
+                     "caption": "MIT-Scheme",
+                     "id": "repl_mit_scheme",
+                     "mnemonic": "r",
+                     "args": {
+                        "type": "subprocess",
+                        "external_id": "scheme",
+                        "encoding": "utf8",
+                        "cmd": ["scheme"],
+                        "soft_quit": "\n(exit)\n",
+                        "cwd": "$file_path",
+                        "cmd_postfix": "\n",
+                        "suppress_echo": false,
+                        "syntax": "Packages/User/Sublime-Scheme-Syntax/Scheme-R5RS.tmLanguage"
+                        }
+                    }
+                ]}
+            ]
+        }]
+    }
+]
