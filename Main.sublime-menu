@@ -25,7 +25,7 @@
                         "cwd": "$file_path",
                         "cmd_postfix": "\n",
                         "suppress_echo": false,
-                        "syntax": "Packages/User/Sublime-Scheme-Syntax/Gauche.tmLanguage"
+                        "syntax": "Packages/Sublime-Scheme-Syntax/Gauche.tmLanguage"
                         }
                     },
                     {"command": "repl_open",
@@ -41,7 +41,7 @@
                         "cwd": "$file_path",
                         "cmd_postfix": "\n",
                         "suppress_echo": false,
-                        "syntax": "Packages/User/Sublime-Scheme-Syntax/Scheme-R5RS.tmLanguage"
+                        "syntax": "Packages/Sublime-Scheme-Syntax/Scheme-R5RS.tmLanguage"
                         }
                     }
                 ]}
