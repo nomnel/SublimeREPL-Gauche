@@ -10,7 +10,7 @@ This config file adds Scheme(Gauche, MIT-Scheme) REPL to SublimeREPL. And also, 
 that is,
 
 	# at /PATH/TO/Package/SublimeREPL/config/
-	$ git clone clone https://github.com/nomnel/SublimeREPL-Scheme Scheme
+	$ git clone https://github.com/nomnel/SublimeREPL-Scheme Scheme
 
 ## Add other Scheme Implementations
 See `Main.sublime-menu` and append preference list. Regularly, copy&paste MIT-Scheme's and fix caption, id, and cmd preferences.
