@@ -1,5 +1,5 @@
 # Scheme REPL with SublimeREPL
-This config file adds Scheme(Gauche, MIT-Scheme) REPL to SublimeREPL. And also, you can add other Scheme Implementations.
+This config file adds Scheme(Gauche, MIT-Scheme) to SublimeREPL. And also, you can add other Scheme Implementations.
 
 ## Installation
 **In advance**, you have to install [SublimeREPL](https://github.com/wuub/SublimeREPL).
